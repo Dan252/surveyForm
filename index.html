@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form class="content" method="POST">
+      <div id = "formAll">
+      <header>
+        <h2 class="header survey"><strong> Survey</strong></h2>
+        <p class="header survey">
+          Please let us know about your experience with our product and service.
+        </p>
+        <hr />
+      </header>
+      
+        <p>
+          <strong>
+            Would your <br />
+            recommend it to your <br />
+            friends and <br />
+            colleagues?</strong
+          >
+        </p>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios1"
+            value="option1"
+            checked
+          />
+          <label class="form-check-label" for="exampleRadios1">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="exampleRadios"
+            id="exampleRadios2"
+            value="option2"
+          />
+          <label class="form-check-label" for="exampleRadios2">
+            No
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">
+            <strong>
+              Do you have any <br />
+              suggestions to <br />
+              improve our product <br />
+              and service?</strong
+            ></label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            cols="40"
+            rows="6"
+            spellcheck="false"
+          ></textarea>
+        </div>
+
+        <div>
+          <p>
+            <strong>
+              How satisfied are you <br />
+              with our company <br />
+              overall?
+            </strong>
+          </p>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="companySatisfaction"
+              id="exampleRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Very Satisfied
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="companySatisfaction"
+              id="exampleRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Satisfied
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="companySatisfaction"
+              id="exampleRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Undecided
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="companySatisfaction"
+              id="exampleRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Unsatisfied
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="companySatisfaction"
+              id="exampleRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Very Unsatisfied
+            </label>
+          </div>
+        </div>
+        <p>
+          Please leave your email address if you would like us to contact you
+          regarding any questions.
+        </p>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="fullName"> <strong> Full Name</strong></label>
+            <input type="text" class="form-control" size="10" id="inputCity" />
+            <label for="inputCity">First Name</label>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">&nbsp;</label>
+            <input type="text" class="form-control" id="inputCity" />
+            <label for="inputCity">Last Name</label>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip"> <strong> E-mail Address </strong></label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputemail"
+              placeholder="ex: myname@example.com"
+            />
+          </div>
+        </div>
+        <p>Thank you for completing our survey.</p>
+
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </div>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+.content {
+  font-family: Verdana, sans-serif;
+  border: 1px solid transparent;
+  margin: 0px auto;
+  width: 650px;
+  padding-top: 0px;
+  position: relative;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+  background-image: none;
+  background-color: #ffffff;
+  font-size: 12px;
+  list-style: none;
+  list-style-position: outside;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+
+#formAll {
+  padding: 24px 0px 24px 0px;
+  margin: 12px 36px 12px 36px;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-family: Verdana, sans-serif;
+  line-height: 1.618em;
+  font-size: 1.714em;
+}
+#exampleFormControlTextarea1 {
+  background-color: #ffffff;
+  padding: 4px 3px 2px 3px;
+  margin-left: 0;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.071em;
+  box-shadow: 0 1px 2px #eee inset;
+  font-family: "Lucida Grande",Verdana;
+  white-space: pre-wrap;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textarea;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+
+}
+
+#inputCity {
+  margin-left: 0;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.071em;
+  padding: 4px 3px 2px 3px;
+  box-shadow: 0 1px 2px #eee inset;
+  font: 400 13.3333px Arial;
+}
+.form-group {
+  margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
